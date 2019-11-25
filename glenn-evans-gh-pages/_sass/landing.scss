@@ -1,0 +1,23 @@
+
+.main-landing-container {
+  height:100vh;
+  display:flex;
+
+}
+.photo-container {
+  background-color:pink;
+  height:100vh;
+  width:50%;
+  background:url("../img/glenn_evans.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.content-container {
+  background-color:orange;
+  height:100vh;
+  width:50%;
+}

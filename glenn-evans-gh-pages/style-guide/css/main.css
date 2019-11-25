@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+
+.background{
+    background-color: black;
+  }
+  .title{
+    font-family:  'Yeon Sung', cursive;
+    font-size: 30px;
+    color: #ff0000;
+    display: inline;
+  }
+  .title-main{
+    font-family:  'Yeon Sung', cursive;
+    font-size: 50px;
+    color: #ff0000;
+    display: inline;
+  }
+  #white{
+    color: antiquewhite;
+  }

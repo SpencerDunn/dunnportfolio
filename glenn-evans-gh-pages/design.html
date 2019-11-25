@@ -1,0 +1,25 @@
+---
+layout: default
+title: design
+permalink: /design/
+---
+
+
+<ul class="portfolio-container">
+{% for design in site.design %}
+  <li>
+    <div class="card-container">
+      <div class="card">
+        <div class="front">
+          <figure>
+            <img src="{{design.img}}">
+          </figrue>
+        </div>
+        <div class="back">
+          back of card
+        </div>
+      </div>
+    </div>
+  </li>
+{% endfor %}
+</ul>
